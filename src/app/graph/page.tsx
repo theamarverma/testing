@@ -1,4 +1,4 @@
-import CustomChart from '@/components/chart/chart-js/CustomChart';
+// import CustomChart from '@/components/chart/chart-js/CustomChart';
 import CustomVictory from '@/components/chart/victory/CustomVictory';
 import React from 'react';
 
