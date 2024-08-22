@@ -1,0 +1,41 @@
+.chart-container {
+	position: absolute;
+	padding: 10px;
+	/* right: 0; */
+	/* height: 711px; */
+	width: 525px;
+	background: #fefefe;
+	border-radius: 12px;
+	overflow: hidden;
+
+	box-sizing: border-box;
+}
+
+/* ellipse code */
+.chart-container::before {
+	content: '';
+	position: absolute;
+	width: 322px;
+	height: 189px;
+	background: rgba(151, 114, 255, 0.1);
+	filter: blur(100px);
+	border-radius: 50%;
+	top: 112px;
+	left: 49%;
+	transform: translateX(-50%);
+	z-index: 0;
+}
+
+.chart-container svg {
+	position: relative;
+	z-index: 1;
+}
+
+/* Apply border radius to the Victory points */
+.chart-container .victory-scatter rect {
+	border-radius: 4px;
+}
+
+#chart-axis-0-tickLabels-5 > tspan {
+	fill: rgba(151, 114, 255, 1) !important;
+}
