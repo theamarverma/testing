@@ -22,7 +22,7 @@ export default function Home() {
 	return (
 		<>
 			<h1>Welcome to Testing Components</h1>
-			<div>
+			<div className="flex gap-4">
 				{pages.map((component) => (
 					<a
 						key={component.name}
